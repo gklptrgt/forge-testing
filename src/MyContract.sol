@@ -6,12 +6,12 @@ contract MyContract {
     uint256 private hiddenValue = 0;
 
     function doStuff(uint256 data) public {
-        if (data == 2){
-            shouldAlwaysBeZero = 1;
-        }
-        if (hiddenValue == 7) {
-            shouldAlwaysBeZero = 1;
-        }
+        // if (data == 2){
+        //     shouldAlwaysBeZero = 1;
+        // }
+        // if (hiddenValue == 7) {
+        //     shouldAlwaysBeZero = 1;
+        // }
         hiddenValue = data;
     }
 }
